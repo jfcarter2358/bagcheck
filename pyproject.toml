@@ -4,6 +4,9 @@ version = "0.1.0"
 description = "A concourse pipeline validation tool"
 authors = ["John Carter <jfcarter2358@gmail.com>"]
 readme = "README.md"
+repository = "https://github.com/jfcarter2358/bagcheck"
+keywords = ["concourse", "bagcheck"]
+license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.10"

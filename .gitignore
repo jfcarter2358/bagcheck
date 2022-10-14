@@ -1,0 +1,10 @@
+/.coverage
+/.pytest_cache
+/.vscode
+__pycache__
+.python-version
+/htmlcov
+/docs/build
+/dist
+/coverage.xml
+/tests/data/.test3.py
