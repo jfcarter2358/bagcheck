@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "bagcheck"
+version = "0.1.0"
+description = ""
+authors = ["John Carter <jfcarter2358@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+jsonpath-ng = "^1.5.3"
+pyyaml = "^6.0"
+rich-click = "^1.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+bagcheck = "bagcheck.bagcheck:cli"
