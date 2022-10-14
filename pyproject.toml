@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "bagcheck"
 version = "0.1.0"
-description = ""
+description = "A concourse pipeline validation tool"
 authors = ["John Carter <jfcarter2358@gmail.com>"]
 readme = "README.md"
 
